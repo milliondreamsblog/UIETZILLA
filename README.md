@@ -1,2 +1,1 @@
-
-Contribute
+UIETZILLA: Student Event Management System
