@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  background-color: #1c1c1c; /* Equivalent to bg-black-200 */
+  width: 100%; /* Adjust as per your requirements */
+  max-width: 320px; /* Equivalent to sm:w-80 */
+  height: auto;
+  border-radius: 1rem; /* Equivalent to rounded-xl */
+  margin-left: 1.5rem; /* Equivalent to mx-6 */
+  margin-right: 1.5rem;
+  padding: 0.5rem; /* Equivalent to p-2 */
+  margin-bottom: 2.5rem; /* Equivalent to mb-10 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), 0 8px 20px rgba(0, 0, 0, 0.2); /* Initial shadow */
+  transition: all 0.5s ease-in-out; /* Equivalent to transition-all duration-500 ease-in-out */
+  transform: scale(1); /* Ensure normal scale initially */
+}
+
+.card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 20px 40px rgba(0, 0, 0, 0.3); /* Hover shadow */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+#root{
+  overflow: hidden;
+}
+
+.footer-bg {
+  background-image: url('/herofooter.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
