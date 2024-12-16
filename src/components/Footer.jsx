@@ -65,7 +65,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <h1 className="text-center text-white mt-16 text-sm md:mt-auto pb-5">© crafted with ❤️ by Aditya 2024</h1>
+                    <h1 className="text-center text-white mt-16 text-sm md:mt-auto pb-5">© crafted with ❤️ by Aditya & Akshat 2024</h1>
                 </div>
             </footer>
         </AnimateWrapper>

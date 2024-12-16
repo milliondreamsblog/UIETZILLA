@@ -12,7 +12,7 @@ function Card({ heading, details, img }) {
             </p>
             <div className=' text-center mt-10 mb-5 '>
                 <button className="bg-black border rounded-full text-white text-xs px-5 py-1 border-white focus:outline-none">
-                    Know More
+                    Register now
                 </button>
             </div>
         </div>
