@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className="flex items-center">
                 <AnimateWrapper animationType="fadeIn">
                     <Link to="/" className="text-xl font-bold">
-                        {scroll ? 'MyCompany' : <img src="path_to_logo" alt="Logo" className="w-10 h-10" />}
+                        {scroll ? 'MyCompany' : <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsz7N7JJdEj_WEz-gy4kNUPmxT9Fg35EzlA&s" alt="Logo" className="w-10 h-10" />}
                     </Link>
                 </AnimateWrapper>
             </div>
