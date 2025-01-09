@@ -31,3 +31,51 @@
   background-size: cover;
   background-position: center;
 }
+
+.banner button{
+    all: unset;
+    border: 1px solid #afaeae55;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to bottom, #eee1, transparent, #eee1
+    );
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.banner button:hover{
+    background-color: #c691e6;
+    color: #040018;
+    box-shadow: 0 0 50px #c691e6;
+    
+}
+.banner {
+  position: relative;
+  text-align: center;
+  padding: 0px;
+  background: #282c34;
+  color: white;
+}
+
+.banner h1 {
+  margin: 10px 0;
+}
+
+.banner button {
+  border: 1px solid #afaeae55;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #eee1, transparent, #eee1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
