@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AnimateWrapper from './AnimateWrapper';
-
+import img from './image/smart.jpg'
 const Navbar = () => {
     const [scroll, setScroll] = useState(false);
 
@@ -25,7 +25,11 @@ const Navbar = () => {
             <div className="flex items-center">
                 <AnimateWrapper animationType="fadeIn">
                     <Link to="/" className="text-xl font-bold">
+<<<<<<< HEAD
                         {scroll ? 'MyCompany' : <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsz7N7JJdEj_WEz-gy4kNUPmxT9Fg35EzlA&s" alt="Logo" className="w-10 h-10" />}
+=======
+                        {scroll ? 'MyCompany' : <img src={img} alt="Logo" className="w-10 h-10" />}
+>>>>>>> c703df621139ccedf1bfb8e56b3d6848e6856b08
                     </Link>
                 </AnimateWrapper>
             </div>
