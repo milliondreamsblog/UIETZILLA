@@ -10,7 +10,7 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import About from './components/AboutUs';
 import Teams from './components/Team';
-
+import Register from './components/Register';
 const ProtectedRoute = ({ children }) => {
     const token = localStorage.getItem("token");
     return token ? children : <Navigate to="/login" />;
@@ -21,9 +21,11 @@ function App() {
   return (
     <Router>
       <Routes>
+        
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>}/>
         <Route path="/course/:courseId" element={<CourseDetails />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Brew />} />
         <Route path="/aboutus" element={<About />} />
         <Route path="/team" element={<Teams />} />
