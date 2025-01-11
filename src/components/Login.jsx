@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [role, setRole] = useState("user"); // Default role
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
@@ -15,7 +16,7 @@ const Login = () => {
             const route =
                 role === "admin"
                     ? "https://uietzilla.onrender.com/api/v1/admin/signin"
-                    : "hhttps://uietzilla.onrender.com/api/v1/user/signin";
+                    : "https://uietzilla.onrender.com/api/v1/user/signin";
             
             const response = await fetch(route, {
                 method: "POST",
