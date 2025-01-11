@@ -126,10 +126,10 @@ const About = () => {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200',
-              'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200&h=200',
-              'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200',
-              'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&q=80&w=200&h=200'
+              'https://media.licdn.com/dms/image/v2/D5603AQGrMoSl5jrSpQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707457555874?e=1741824000&v=beta&t=yUXiUCSWk4AM_ipLDMf1shiK-ErBlW53PFioW1ybRgA',
+              'https://media.licdn.com/dms/image/v2/D4D03AQHb5N4w4DbKqg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1684263458341?e=1741824000&v=beta&t=P6U0Hq_N34IZdSVKYd72FX8VdyAwALJ2ymrjgvoyUZ8',
+              'https://media.licdn.com/dms/image/v2/D5603AQHSBrR10HyzuQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1704621714877?e=1741824000&v=beta&t=lBznE6GoUfTTCxqEqmzFQDT8am1UrZielZdpIKTOzfc',
+              'https://media.licdn.com/dms/image/v2/D5603AQFfkFWHZE9EDw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705660187305?e=1741824000&v=beta&t=GUWnMjwcoToAHRbKSb_udYN2AhVZJfFXE6o2JukgmLM'
             ].map((image, index) => (
               <div key={index} className="relative group">
                 <img
