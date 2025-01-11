@@ -21,7 +21,7 @@ const Register = () => {
             const route =
                 role === "admin"
                     ? "https://uietzilla.onrender.com/api/v1/admin/signup"
-                    : "https://uietzilla.onrender.com/api/v1/admin/signup";
+                    : "https://uietzilla.onrender.com/api/v1/user/signup";
 
             const response = await fetch(route, {
                 method: "POST",
