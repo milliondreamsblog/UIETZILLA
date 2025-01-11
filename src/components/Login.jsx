@@ -12,7 +12,7 @@ const Login = () => {
         setError("");
 
         try {
-            const response = await fetch("http://localhost:3000/api/v1/admin/signin", {
+            const response = await fetch("https://uietzilla.onrender.com/api/v1/admin/signin", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
