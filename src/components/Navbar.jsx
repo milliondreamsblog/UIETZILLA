@@ -25,11 +25,7 @@ const Navbar = () => {
             <div className="flex items-center">
                 <AnimateWrapper animationType="fadeIn">
                     <Link to="/" className="text-xl font-bold">
-<<<<<<< HEAD
-                        {scroll ? 'MyCompany' : <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsz7N7JJdEj_WEz-gy4kNUPmxT9Fg35EzlA&s" alt="Logo" className="w-10 h-10" />}
-=======
-                        {scroll ? 'MyCompany' : <img src={img} alt="Logo" className="w-10 h-10" />}
->>>>>>> c703df621139ccedf1bfb8e56b3d6848e6856b08
+                        {scroll ? 'Coder Bhaiya' : <img src={img} alt="Logo" className="w-10 h-10" />}
                     </Link>
                 </AnimateWrapper>
             </div>
@@ -46,6 +42,7 @@ const Navbar = () => {
                     ))}
                 </ul>
             )}
+           
 
             {/* Login and Register Buttons */}
             <div className="flex items-center space-x-4">
@@ -53,10 +50,10 @@ const Navbar = () => {
                     <AnimateWrapper animationType="fadeIn">
                         <Link
                             to="/login"
-                            className={`transition-colors rounded-full px-4 py-2 font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 ${
+                            className={`border border-white  rounded-lg px-4 py-2 font-medium text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-black ${
                                 scroll
-                                    ? 'bg-white text-black hover:bg-gray-200 focus:ring-gray-400 focus:ring-offset-black'
-                                    : 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-gray-800'
+                                    ? 'bg-black text-black hover:bg-red-200 focus:ring-gray-400 focus:ring-offset-black'
+                                    : 'bg-gray-200 text-black hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-gray-800'
                             }`}
                         >
                             Login
@@ -67,9 +64,9 @@ const Navbar = () => {
                     <AnimateWrapper animationType="fadeIn">
                         <Link
                             to="/register"
-                            className="bg-blue-600 hover:bg-blue-700 transition-colors rounded-full text-white px-6 py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800"
+                            className="bg-green-500 text-white rounded-lg px-6 py-2 font-medium hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400"
                         >
-                            Register
+                            Get Started Free
                         </Link>
                     </AnimateWrapper>
                 )}
