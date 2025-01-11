@@ -12,6 +12,7 @@ const Dashboard = () => {
                 setError("You need to log in to view your dashboard.");
                 return;
             }
+            
 
             try {
                 const response = await fetch("http://localhost:5000/api/v1/purchases/my-purchases", {

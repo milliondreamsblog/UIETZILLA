@@ -18,14 +18,14 @@ const Navbar = () => {
     return (
         <nav
             className={`w-full flex items-center justify-between py-4 px-6 fixed top-0 left-0 right-0 z-10 transition-all duration-300 ${
-                scroll ? 'bg-black text-white shadow-lg py-2' : 'bg-transparent text-white py-4'
+                scroll ? 'bg-black text-white shadow-lg py-2' : 'bg-transparent text-black py-4'
             }`}
         >
             {/* Logo or Company Name */}
             <div className="flex items-center">
                 <AnimateWrapper animationType="fadeIn">
                     <Link to="/" className="text-xl font-bold">
-                        {scroll ? 'Coder Bhaiya' : <img src={img} alt="Logo" className="w-10 h-10" />}
+                        {scroll ? 'Sarang Vidya' : <img src={img} alt="Logo" className="w-10 h-10" />}
                     </Link>
                 </AnimateWrapper>
             </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
                     <AnimateWrapper animationType="fadeIn">
                         <Link
                             to="/register"
-                            className="bg-green-500 text-white rounded-lg px-6 py-2 font-medium hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400"
+                            className="bg-teal-500 text-white rounded-lg px-6 py-2 font-medium hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400"
                         >
                             Get Started Free
                         </Link>
